@@ -8,10 +8,10 @@ import edu.yctu.zyj.shape.Shape;
  * @author ’‘“À¨B
  *
  */
-public class Square implements Shape{
+public class Square implements Shape {
 
-	@Override
-	   public void draw() {
-	      System.out.println("Inside Square::draw() method.");
-	   }
+    @Override
+    public void draw() {
+        System.out.println("Inside Square::draw() method.");
+    }
 }

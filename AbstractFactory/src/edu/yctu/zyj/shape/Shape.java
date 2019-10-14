@@ -7,9 +7,9 @@ package edu.yctu.zyj.shape;
  *
  */
 public interface Shape {
-	/**
-	 * »­
-	 * 
-	 */
-	void draw();
+    /**
+     * »­
+     * 
+     */
+    void draw();
 }

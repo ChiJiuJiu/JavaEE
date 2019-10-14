@@ -8,11 +8,11 @@ import edu.yctu.zyj.color.Color;
  * @author ’‘“À¨B
  *
  */
-public class Blue implements Color{
+public class Blue implements Color {
 
-	@Override
-	public void fill() {
-		System.out.println("Inside Blue::fill() method.");
-	}
+    @Override
+    public void fill() {
+        System.out.println("Inside Blue::fill() method.");
+    }
 
 }

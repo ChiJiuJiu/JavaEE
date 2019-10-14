@@ -4,13 +4,14 @@ import edu.yctu.zyj.color.Color;
 import edu.yctu.zyj.shape.Shape;
 
 /**
- *  抽象工厂
+ * 抽象工厂
  * 
  * @author 赵宜珺
  *
  */
 public abstract class AbstractFactory {
-	
-	public abstract Color getColor(String color);
-	public abstract Shape getShape(String shape) ;
+
+    public abstract Color getColor(String color);
+
+    public abstract Shape getShape(String shape);
 }
