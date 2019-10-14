@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.yctu.zyj.interfaces.Shape"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.shape.impl.Circle"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.shape.impl.Rectangle"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.shape.impl.Square"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.color.impl.Red"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.color.impl.Green"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.color.impl.Blue"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.factory.impl.ShapeFactory"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.factory.impl.ColorFactory"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.factory.AbstractFactory"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.factory.util.FactoryProducer"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.shape.Shape"/>
+<fullyQualifiedTypeName name="edu.yctu.zyj.color.Color"/>
+</qualifiedTypeNameHistroy>
