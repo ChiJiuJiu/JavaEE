@@ -1,5 +1,11 @@
 package edu.yctu.huffman.node;
-
+/**
+ * 叶节点数据结构
+ * 
+ * @author 赵宜珺
+ *
+ * @param <T>
+ */
 public class Node<T> implements Comparable<Node<T>> {
 
     private T data;

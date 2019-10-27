@@ -7,7 +7,12 @@ import java.util.LinkedList;
 
 import edu.yctu.huffman.node.Node;
 import edu.yctu.huffman.util.FileOperation;
-
+/**
+ * 测试类
+ * 
+ * @author 赵宜珺
+ *
+ */
 public class HFMcompression {
 
     public static void main(String[] args) {
@@ -28,7 +33,7 @@ public class HFMcompression {
         System.out.println("开始从文件获取str串");
         String str = fo.GetStr(map, file);
         System.out.println("转化得到的01字符串：" + str);
-        File fileCompress = new File("data2.zip");// 压缩文件地址
+        File fileCompress = new File("data2.txt");// 压缩文件地址
         fo.compressFile(fileCompress, map, str); // 生成压缩文件
         File fileUncompress = new File("data3.txt");// 压缩文件地址
         fo.uncompressFile(fileCompress, fileUncompress);// 解压文件至fileUncompress处

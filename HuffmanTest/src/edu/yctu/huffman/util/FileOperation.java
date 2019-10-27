@@ -6,7 +6,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Set;
-
+/**
+ * 工具类
+ * 
+ * @author 赵宜珺
+ *
+ */
 public class FileOperation {
 
     FileOutputStream fos;// 申明文件输出流对象
@@ -376,7 +381,7 @@ public class FileOperation {
                 // System.out.println("temp值："+temp);
                 if (mapGet.containsKey(temp)) {
                     fos.write(mapGet.get(temp).charAt(0)); // 一个字符的字符串转字符然后写出
-                    System.out.println("解压了一个字符:" + mapGet.get(temp).charAt(0) + "   它的01原码是：" + temp + "  此时的i为：" + i);
+//                    System.out.println("解压了一个字符:" + mapGet.get(temp).charAt(0) + "   它的01原码是：" + temp + "  此时的i为：" + i);
                     temp = "";
                 }
             }
